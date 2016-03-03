@@ -8,6 +8,6 @@ int main()
     vec.push_back(1);
     vec.push_back(1);
     vec.push_back(1);
-    cout << sum(vec) << endl;
+    cout << sum(vec) << mult(vec) << endl;
     return 0;
 }
