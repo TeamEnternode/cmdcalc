@@ -1,9 +1,13 @@
 #include <iostream>
-
-using namespace std;
+#include "functions.h"
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    vector<double> vec;
+    vec.push_back(1);
+    vec.push_back(1);
+    vec.push_back(1);
+    vec.push_back(1);
+    cout << sum(vec) << endl;
     return 0;
 }
